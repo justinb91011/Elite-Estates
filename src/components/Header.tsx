@@ -9,6 +9,10 @@ export const Header = () => {
           {/* Increased the maximum height of the logo */}
           <img src="/Elite-Estates/logo-png.jpg" alt="Logo" style={{ maxHeight: '80px' /* Adjusted logo size */ }} />
         </Link>
+        <div style={{ borderLeft: '1px solid white', height: '77px', marginLeft: '20px', marginRight: '20px' }}></div>
+        <Link to="/Elite-Estates" style={{ fontSize: '1rem', fontWeight: 'bold' }}>
+          Elite Estates Lawn Care
+        </Link>
       </div>  
     </header>
   )
