@@ -16,7 +16,7 @@ export const Header = () => {
         </Link>
       </div>
       <div style={{ marginRight: '1rem' }} className="flex items-center"> {/* Right aligned contact info with icons */}
-        <a href="mailto:info@eliteestates.com" className="flex items-center text-white hover:text-white"> {/* Make email clickable */}
+        <a href="mailto:EliteestatesLawncare@gmail.com" className="flex items-center text-white hover:text-white"> {/* Make email clickable */}
           <FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '0.5rem' }} />
           Email Us
         </a>
