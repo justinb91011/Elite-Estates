@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import this
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 
 export const Header = () => {
   return (

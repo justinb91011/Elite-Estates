@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Header from "./Header";
 
 export const Home = () => {
@@ -5,9 +6,10 @@ export const Home = () => {
 
   return (
     <div className="w-full mt-10 px-4 bg-gray-200"> 
-    <div className="flex flex-col items-start justify-start min-h-screen pt-[112px]">
+    <div className="flex flex-col min-h-screen w-full">
       <Header />
-      <div className="w-full mt-1 pl-4"> {/* Keep text aligned to the left */}
+      <main className="flex-grow w-full">
+      <div className="w-full mt-6 pl-4"> {/* Keep text aligned to the left */}
         <h1 className="text-4xl font-bold text-green-700">Who are we?</h1>
       </div>
       <div className="mt-4 pl-4" style={{ maxWidth: '480px' }}> {/* Apply max-width to constrain the text */}
@@ -49,10 +51,21 @@ export const Home = () => {
         </div>
         <div className="w-1/3 px-2 text-center"> {/* Center text for consistency */}
           <h3 className="text-2xl font-semibold text-green-700">Grass Care and Management</h3>
-          {/* Description for Lawn Maintenance */}
+          <ul className="list-inside list-disc text-green-700 text-left mx-auto text-sm" style={{ maxWidth: '240px' }}> {/* Centered list with max-width */}
+            <li>Regular mowing with precision for the perfect grass</li>
+            <li>Custom fertilization for robust and lush grass</li>
+            <li>High-quality seeds for a dense and vibrant lawn</li>
+            <li>Professional sod laying for an instant beautiful lawn</li>
+            <li>Edge trimming for a neat and tidy lawn</li>
+            <li>Thatch removal to promote lawn health and growth</li>
+          </ul>
         </div>
       </div>
-      {/* Rest of your content */}
+      </main>
+      <div className="mt-8">
+      <Footer />
+      </div>
+      
     </div>
     </div>
   );
