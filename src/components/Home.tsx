@@ -1,14 +1,21 @@
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 import Footer from "./Footer";
 import Header from "./Header";
 
 export const Home = () => {
+  const navigate = useNavigate(); // Initialize useNavigate
+
+  const handleLearnMore = () => {
+    navigate("/Elite-Estates/about"); // Navigate to the about page
+  };
+
   return (
     <div className="w-full bg-gray-200">
       <Header />
       <main className="pt-24"> {/* Adjusted to pt-24 for fixed header */}
         {/* Background image section */}
-        <div 
-          className="relative w-full bg-cover bg-center" 
+        <div
+          className="relative w-full bg-cover bg-center"
           style={{ backgroundImage: "url('/Elite-Estates/house-photo.jpg')", height: "calc(100vh - 64px)" }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center">
@@ -18,7 +25,10 @@ export const Home = () => {
             <p className="mt-4 text-white text-center max-w-xl mx-auto">
               Personalized, high-quality lawn care and landscaping services for East Hampton and surrounding areas.
             </p>
-            <button className="mt-6 px-6 py-3 bg-green-600 text-white text-lg font-semibold rounded-full hover:bg-green-700">
+            <button
+              onClick={handleLearnMore} // Add onClick event
+              className="mt-6 px-6 py-3 bg-green-600 text-white text-lg font-semibold rounded-full hover:bg-green-700"
+            >
               Learn More
             </button>
           </div>

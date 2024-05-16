@@ -9,7 +9,7 @@ export const Header = () => {
       style={{ padding: "1rem" }}
     >
       <div className="flex items-center">
-        <Link to="/Elite-Estates" className="logo" style={{ cursor: "pointer" }}>
+        <Link to="/Elite-Estates/" className="logo" style={{ cursor: "pointer" }}>
           <img src="/Elite-Estates/logo-png.jpg" alt="Logo" style={{ maxHeight: "80px" }} />
         </Link>
         <div
