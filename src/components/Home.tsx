@@ -12,18 +12,24 @@ export const Home = () => {
   return (
     <div className="w-full bg-gray-200">
       <Header />
-      <main className="pt-24"> {/* Adjusted to pt-24 for fixed header */}
+      <main className="pt-24">
+        {" "}
+        {/* Adjusted to pt-24 for fixed header */}
         {/* Background image section */}
         <div
           className="relative w-full bg-cover bg-center"
-          style={{ backgroundImage: "url('/Elite-Estates/house-photo.jpg')", height: "calc(100vh - 64px)" }}
+          style={{
+            backgroundImage: "url('/Elite-Estates/house-photo.jpg')",
+            height: "calc(100vh - 64px)",
+          }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center">
             <h1 className="text-4xl md:text-6xl font-bold text-white text-center">
               Transform Your Outdoor Spaces with Elite Estates Lawn Care
             </h1>
             <p className="mt-4 text-white text-center max-w-xl mx-auto">
-              Personalized, high-quality lawn care and landscaping services for East Hampton and surrounding areas.
+              Personalized, high-quality lawn care and landscaping services for
+              East Hampton and surrounding areas.
             </p>
             <button
               onClick={handleLearnMore} // Add onClick event
@@ -38,14 +44,13 @@ export const Home = () => {
           <h1 className="text-4xl font-bold text-green-700">Who are we?</h1>
           <p className="text-base text-green-700 mt-4">
             Elite Estates Lawn Care is dedicated to transforming your outdoor
-            spaces into beautiful, living art. Our team of skilled
-            professionals brings expertise and creativity to every project,
-            ensuring personalized and high-quality service for your home or
-            business. We offer our services in East Hampton, New York and its
-            neighboring communities. From snow removal and grass maintenance
-            to landscape design and installation, we offer it all. We're
-            committed to giving our clients excellent work and top-notch
-            customer support.
+            spaces into beautiful, living art. Our team of skilled professionals
+            brings expertise and creativity to every project, ensuring
+            personalized and high-quality service for your home or business. We
+            offer our services in East Hampton, New York and its neighboring
+            communities. From snow removal and grass maintenance to landscape
+            design and installation, we offer it all. We're committed to giving
+            our clients excellent work and top-notch customer support.
           </p>
         </div>
         {/* Centered "Services" section */}
@@ -64,21 +69,15 @@ export const Home = () => {
             >
               <li>Expert lawn treatments and mowing for a pristine yard</li>
               <li>
-                Vibrant and healthy flower beds with specialized care
-                routines.
+                Vibrant and healthy flower beds with specialized care routines.
               </li>
-              <li>
-                Timely planting for year-round garden vibrancy and health
-              </li>
+              <li>Timely planting for year-round garden vibrancy and health</li>
               <li>
                 Efficient removal of fallen leaves to keep your garden tidy
               </li>
+              <li>Cleanup services to prepare garden for the coming season</li>
               <li>
-                Cleanup services to prepare garden for the coming season
-              </li>
-              <li>
-                Shape and maintain the health of trees with professional
-                pruning
+                Shape and maintain the health of trees with professional pruning
               </li>
             </ul>
           </div>
@@ -97,9 +96,7 @@ export const Home = () => {
               <li>
                 Professional trimming to improve tree health and appearance
               </li>
-              <li>
-                Quick and thorough grinding to minimize ground disruption
-              </li>
+              <li>Quick and thorough grinding to minimize ground disruption</li>
               <li>Expert pruning to encourage growth</li>
             </ul>
           </div>

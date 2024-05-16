@@ -17,7 +17,9 @@ export const Footer = () => {
                 style={{ maxHeight: "60px" }}
               />
             </Link>
-            <p className="text-sm">© 2023 Elite Estates Lawn Care. All rights reserved.</p>
+            <p className="text-sm">
+              © 2023 Elite Estates Lawn Care. All rights reserved.
+            </p>
           </div>
 
           {/* Center - Connect with us */}
