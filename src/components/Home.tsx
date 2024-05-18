@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 import Footer from "./Footer";
 import Header from "./Header";
+import { faBarsStaggered } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Home = () => {
   const navigate = useNavigate(); // Initialize useNavigate
@@ -46,8 +48,7 @@ export const Home = () => {
           <div className="md:w-1/2 flex flex-col justify-around">
             <div className="flex items-start p-4 bg-white rounded-lg mb-4"> {/* Changed background to white */}
               <div className="mr-4">
-                {/* Replace with actual icon */}
-                <span className="text-3xl">🌿</span>
+                <FontAwesomeIcon icon={faBarsStaggered} className="text-3xl text-black" /> {/* Updated to use FontAwesomeIcon */}
               </div>
               <div>
                 <h3 className="text-xl font-bold text-black">Garden Care</h3>
@@ -59,8 +60,7 @@ export const Home = () => {
             </div>
             <div className="flex items-start p-4 bg-white rounded-lg mb-4"> {/* Changed background to white */}
               <div className="mr-4">
-                {/* Replace with actual icon */}
-                <span className="text-3xl">🌲</span>
+                <FontAwesomeIcon icon={faBarsStaggered} className="text-3xl text-black" /> {/* Updated to use FontAwesomeIcon */}
               </div>
               <div>
                 <h3 className="text-xl font-bold text-black">
@@ -74,8 +74,7 @@ export const Home = () => {
             </div>
             <div className="flex items-start p-4 bg-white rounded-lg mb-4"> {/* Changed background to white */}
               <div className="mr-4">
-                {/* Replace with actual icon */}
-                <span className="text-3xl">🌾</span>
+                <FontAwesomeIcon icon={faBarsStaggered} className="text-3xl text-black" /> {/* Updated to use FontAwesomeIcon */}
               </div>
               <div>
                 <h3 className="text-xl font-bold text-black">
