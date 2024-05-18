@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faEnvelope, faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Header = () => {
@@ -10,7 +10,7 @@ export const Header = () => {
     >
       <div className="flex items-center">
         <Link
-          to="/Elite-Estates/"
+          to="/Elite-Estates"
           className="logo"
           style={{ cursor: "pointer" }}
         >
@@ -36,6 +36,21 @@ export const Header = () => {
         </Link>
       </div>
       <div style={{ marginRight: "1rem" }} className="flex items-center">
+        <Link
+          to="/Elite-Estates"
+          className="flex items-center"
+          style={{
+            fontSize: "1rem",
+            marginRight: "20px",
+            color: "white",
+          }}
+        >
+          <FontAwesomeIcon
+            icon={faHouse}
+            style={{ marginRight: "0.5rem" }}
+          />
+          Home
+        </Link>
         <a
           href="mailto:EliteestatesLawncare@gmail.com"
           className="flex items-center text-white hover:text-white"
