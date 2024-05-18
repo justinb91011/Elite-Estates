@@ -101,6 +101,31 @@ export const Home = () => {
             />
           </div>
         </div>
+
+        {/* New Section */}
+        <div className="w-full bg-black py-16"> {/* Added background color to this section */}
+          <div className="px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-black text-white p-6 rounded-lg">
+                <h3 className="text-xl font-bold">Why Choose Our Garden Care Services</h3>
+                <p className="text-gray-300">Discover the benefits of our expert garden care solutions and how we can enhance your outdoor spaces.</p>
+              </div>
+              <div className="bg-black text-white p-6 rounded-lg">
+                <h3 className="text-xl font-bold">Safe and Efficient Tree Removal</h3>
+                <p className="text-gray-300">Learn about our professional tree and stump removal services and why they are essential for maintaining a safe and beautiful landscape.</p>
+              </div>
+              <div className="bg-black text-white p-6 rounded-lg">
+                <h3 className="text-xl font-bold">Lawn Care and Maintenance Tips</h3>
+                <p className="text-gray-300">Expert tips for maintaining a healthy lawn.</p>
+              </div>
+              <div className="bg-black text-white p-6 rounded-lg">
+                <h3 className="text-xl font-bold">Seasonal Flower Bed Preparation</h3>
+                <p className="text-gray-300">How to prepare your flower beds for the season.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="mt-32"> {/* Increased margin-top for spacing below the section */}
           <Footer />
         </div>
