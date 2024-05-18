@@ -46,44 +46,50 @@ export const Home = () => {
         </div>
         <div className="flex flex-col md:flex-row mt-16 w-full px-4 space-y-6 md:space-y-0 md:space-x-6"> {/* Increased margin-top for spacing */}
           <div className="md:w-1/2 flex flex-col justify-around">
-            <div className="flex items-start p-4 bg-white rounded-lg mb-4"> {/* Changed background to white */}
-              <div className="mr-4">
-                <FontAwesomeIcon icon={faBarsStaggered} className="text-3xl text-black" /> {/* Updated to use FontAwesomeIcon */}
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-black">Garden Care</h3>
-                <p className="text-gray-700">
-                  Expert lawn treatments and mowing, vibrant flower beds, timely
-                  planting, leaf removal, seasonal cleanup, and tree pruning.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start p-4 bg-white rounded-lg mb-4"> {/* Changed background to white */}
-              <div className="mr-4">
-                <FontAwesomeIcon icon={faBarsStaggered} className="text-3xl text-black" /> {/* Updated to use FontAwesomeIcon */}
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-black">
-                  Tree and Stump Removal
-                </h3>
-                <p className="text-gray-700">
-                  Safe tree removal, stump extraction, professional trimming,
-                  grinding, and pruning.
-                </p>
+            <div className="group hover:bg-gray-300 rounded-lg transition-all duration-200 mb-4 cursor-pointer">
+              <div className="flex items-start p-4 bg-white rounded-lg group-hover:bg-gray-300"> {/* Added group-hover to the inner div */}
+                <div className="mr-4">
+                  <FontAwesomeIcon icon={faBarsStaggered} className="text-3xl text-black" /> {/* Updated to use FontAwesomeIcon */}
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-black">Garden Care</h3>
+                  <p className="text-gray-700">
+                    Expert lawn treatments and mowing, vibrant flower beds, timely
+                    planting, leaf removal, seasonal cleanup, and tree pruning.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="flex items-start p-4 bg-white rounded-lg mb-4"> {/* Changed background to white */}
-              <div className="mr-4">
-                <FontAwesomeIcon icon={faBarsStaggered} className="text-3xl text-black" /> {/* Updated to use FontAwesomeIcon */}
+            <div className="group hover:bg-gray-300 rounded-lg transition-all duration-200 mb-4 cursor-pointer">
+              <div className="flex items-start p-4 bg-white rounded-lg group-hover:bg-gray-300"> {/* Added group-hover to the inner div */}
+                <div className="mr-4">
+                  <FontAwesomeIcon icon={faBarsStaggered} className="text-3xl text-black" /> {/* Updated to use FontAwesomeIcon */}
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-black">
+                    Tree and Stump Removal
+                  </h3>
+                  <p className="text-gray-700">
+                    Safe tree removal, stump extraction, professional trimming,
+                    grinding, and pruning.
+                  </p>
+                </div>
               </div>
-              <div>
-                <h3 className="text-xl font-bold text-black">
-                  Grass Care and Management
-                </h3>
-                <p className="text-gray-700">
-                  Precision mowing, custom fertilization, high-quality seeds,
-                  sod laying, edge trimming, and thatch removal.
-                </p>
+            </div>
+            <div className="group hover:bg-gray-300 rounded-lg transition-all duration-200 mb-4 cursor-pointer">
+              <div className="flex items-start p-4 bg-white rounded-lg group-hover:bg-gray-300"> {/* Added group-hover to the inner div */}
+                <div className="mr-4">
+                  <FontAwesomeIcon icon={faBarsStaggered} className="text-3xl text-black" /> {/* Updated to use FontAwesomeIcon */}
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-black">
+                    Grass Care and Management
+                  </h3>
+                  <p className="text-gray-700">
+                    Precision mowing, custom fertilization, high-quality seeds,
+                    sod laying, edge trimming, and thatch removal.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
