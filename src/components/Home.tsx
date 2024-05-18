@@ -103,7 +103,7 @@ export const Home = () => {
         </div>
 
         {/* New Section */}
-        <div className="w-full bg-black py-16"> {/* Added background color to this section */}
+        <div className="w-full bg-black py-16 mt-32"> {/* Added background color to this section */}
           <div className="px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-black text-white p-6 rounded-lg">
