@@ -13,8 +13,6 @@ export const Home = () => {
     <div className="w-full bg-gray-200">
       <Header />
       <main className="pt-24">
-        {" "}
-        {/* Adjusted to pt-24 for fixed header */}
         {/* Background image section */}
         <div
           className="relative w-full bg-cover bg-center"
@@ -39,88 +37,67 @@ export const Home = () => {
             </button>
           </div>
         </div>
-        {/* Text content section */}
-        <div className="mt-6 pl-4 max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold text-green-700">Who are we?</h1>
-          <p className="text-base text-green-700 mt-4">
-            Elite Estates Lawn Care is dedicated to transforming your outdoor
-            spaces into beautiful, living art. Our team of skilled professionals
-            brings expertise and creativity to every project, ensuring
-            personalized and high-quality service for your home or business. We
-            offer our services in East Hampton, New York and its neighboring
-            communities. From snow removal and grass maintenance to landscape
-            design and installation, we offer it all. We're committed to giving
-            our clients excellent work and top-notch customer support.
-          </p>
+
+        {/* Our Services section */}
+        <div className="w-full mt-16 flex justify-start px-4">
+          <h2 className="text-3xl font-bold text-black">Our Services</h2>
         </div>
-        {/* Centered "Services" section */}
-        <div className="w-full mt-10 flex justify-center">
-          <h2 className="text-3xl font-bold text-green-700">Services</h2>
-        </div>
-        {/* Three service sections */}
-        <div className="flex flex-wrap justify-around px-4 mt-6 w-full">
-          <div className="w-full md:w-1/3 px-2 text-center">
-            <h3 className="text-2xl font-semibold text-green-700">
-              Garden Care
-            </h3>
-            <ul
-              className="list-inside list-disc text-green-700 text-left mx-auto text-sm"
-              style={{ maxWidth: "240px" }}
-            >
-              <li>Expert lawn treatments and mowing for a pristine yard</li>
-              <li>
-                Vibrant and healthy flower beds with specialized care routines.
-              </li>
-              <li>Timely planting for year-round garden vibrancy and health</li>
-              <li>
-                Efficient removal of fallen leaves to keep your garden tidy
-              </li>
-              <li>Cleanup services to prepare garden for the coming season</li>
-              <li>
-                Shape and maintain the health of trees with professional pruning
-              </li>
-            </ul>
+        <div className="flex flex-col md:flex-row mt-6 w-full px-4 space-y-6 md:space-y-0 md:space-x-6">
+          <div className="md:w-1/2 flex flex-col justify-around">
+            <div className="flex items-start p-4 bg-gray-100 rounded-lg mb-4">
+              <div className="mr-4">
+                {/* Replace with actual icon */}
+                <span className="text-3xl">🌿</span>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-black">Garden Care</h3>
+                <p className="text-gray-700">
+                  Expert lawn treatments and mowing, vibrant flower beds, timely
+                  planting, leaf removal, seasonal cleanup, and tree pruning.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start p-4 bg-gray-100 rounded-lg mb-4">
+              <div className="mr-4">
+                {/* Replace with actual icon */}
+                <span className="text-3xl">🌲</span>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-black">
+                  Tree and Stump Removal
+                </h3>
+                <p className="text-gray-700">
+                  Safe tree removal, stump extraction, professional trimming,
+                  grinding, and pruning.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start p-4 bg-gray-100 rounded-lg mb-4">
+              <div className="mr-4">
+                {/* Replace with actual icon */}
+                <span className="text-3xl">🌾</span>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-black">
+                  Grass Care and Management
+                </h3>
+                <p className="text-gray-700">
+                  Precision mowing, custom fertilization, high-quality seeds,
+                  sod laying, edge trimming, and thatch removal.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="w-1/3 px-2 text-center">
-            <h3 className="text-2xl font-semibold text-green-700">
-              Tree and Stump Removal
-            </h3>
-            <ul
-              className="list-inside list-disc text-green-700 text-left mx-auto text-sm"
-              style={{ maxWidth: "240px" }}
-            >
-              <li>Safe and efficient removal of trees</li>
-              <li>
-                Complete stump extraction for a clear and usable yard space
-              </li>
-              <li>
-                Professional trimming to improve tree health and appearance
-              </li>
-              <li>Quick and thorough grinding to minimize ground disruption</li>
-              <li>Expert pruning to encourage growth</li>
-            </ul>
-          </div>
-          <div className="w-1/3 px-2 text-center">
-            <h3 className="text-2xl font-semibold text-green-700">
-              Grass Care and Management
-            </h3>
-            <ul
-              className="list-inside list-disc text-green-700 text-left mx-auto text-sm"
-              style={{ maxWidth: "240px" }}
-            >
-              <li>Regular mowing with precision for the perfect grass</li>
-              <li>Custom fertilization for robust and lush grass</li>
-              <li>High-quality seeds for a dense and vibrant lawn</li>
-              <li>Professional sod laying for an instant beautiful lawn</li>
-              <li>Edge trimming for a neat and tidy lawn</li>
-              <li>Thatch removal to promote lawn health and growth</li>
-            </ul>
+          <div className="md:w-1/2 flex items-center justify-center">
+            <img
+              src="/Elite-Estates/office-photo.jpg" // Use your image here
+              alt="Office"
+              className="rounded-lg"
+            />
           </div>
         </div>
       </main>
-      <div className="mt-8">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 };
