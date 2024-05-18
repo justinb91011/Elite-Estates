@@ -10,7 +10,7 @@ export const Home = () => {
   };
 
   return (
-    <div className="w-full bg-gray-200">
+    <div className="w-full bg-white"> {/* Changed background to white */}
       <Header />
       <main className="pt-24">
         {/* Background image section */}
@@ -39,12 +39,12 @@ export const Home = () => {
         </div>
 
         {/* Our Services section */}
-        <div className="w-full mt-16 flex justify-start px-4">
+        <div className="w-full mt-32 flex justify-start px-4"> {/* Increased margin-top for spacing */}
           <h2 className="text-3xl font-bold text-black">Our Services</h2>
         </div>
-        <div className="flex flex-col md:flex-row mt-6 w-full px-4 space-y-6 md:space-y-0 md:space-x-6">
+        <div className="flex flex-col md:flex-row mt-16 w-full px-4 space-y-6 md:space-y-0 md:space-x-6"> {/* Increased margin-top for spacing */}
           <div className="md:w-1/2 flex flex-col justify-around">
-            <div className="flex items-start p-4 bg-gray-100 rounded-lg mb-4">
+            <div className="flex items-start p-4 bg-white rounded-lg mb-4"> {/* Changed background to white */}
               <div className="mr-4">
                 {/* Replace with actual icon */}
                 <span className="text-3xl">🌿</span>
@@ -57,7 +57,7 @@ export const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-start p-4 bg-gray-100 rounded-lg mb-4">
+            <div className="flex items-start p-4 bg-white rounded-lg mb-4"> {/* Changed background to white */}
               <div className="mr-4">
                 {/* Replace with actual icon */}
                 <span className="text-3xl">🌲</span>
@@ -72,7 +72,7 @@ export const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-start p-4 bg-gray-100 rounded-lg mb-4">
+            <div className="flex items-start p-4 bg-white rounded-lg mb-4"> {/* Changed background to white */}
               <div className="mr-4">
                 {/* Replace with actual icon */}
                 <span className="text-3xl">🌾</span>
@@ -96,8 +96,10 @@ export const Home = () => {
             />
           </div>
         </div>
+        <div className="mt-32"> {/* Increased margin-top for spacing below the section */}
+          <Footer />
+        </div>
       </main>
-      <Footer />
     </div>
   );
 };
