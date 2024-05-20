@@ -1,11 +1,11 @@
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom"; 
 import Footer from "./Footer";
 import Header from "./Header";
 import { faBarsStaggered } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Home = () => {
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate(); 
 
   const handleLearnMore = () => {
     navigate("/Elite-Estates/about"); // Navigate to the about page
