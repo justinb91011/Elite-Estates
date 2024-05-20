@@ -8,11 +8,11 @@ export const Home = () => {
   const navigate = useNavigate(); 
 
   const handleLearnMore = () => {
-    navigate("/Elite-Estates/about"); // Navigate to the about page
+    navigate("/Elite-Estates/about"); 
   };
 
   return (
-    <div className="w-full bg-white"> {/* Changed background to white */}
+    <div className="w-full bg-white"> 
       <Header />
       <main className="pt-24">
         {/* Background image section */}

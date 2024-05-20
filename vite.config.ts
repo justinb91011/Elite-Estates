@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/Elite-Estates/",
+  base: "/Elite-Estates",
   plugins: [react()],
   resolve: {
     alias: {
