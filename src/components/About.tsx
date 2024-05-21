@@ -8,7 +8,7 @@ export const About = () => {
       <main className="flex-grow pt-24">
         {" "}
         {/* Adjusted to pt-24 for fixed header */}
-        <div className="mt-6 px-4 max-w-4xl mx-auto">
+        <div className="mt-10 px-4 max-w-4xl mx-auto">
           {" "}
           {/* Removed text alignment changes */}
           <h1 className="text-4xl font-bold text-black text-left">

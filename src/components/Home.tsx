@@ -153,7 +153,14 @@ export const Home = () => {
           </div>
         </div>
 
-        <div className="mt-32"> 
+        {/* Script Text Section */}
+        <div className="w-full py-16 flex justify-center items-center">
+          <p className="text-black text-4xl" style={{ fontFamily: "cursive" }}>
+            "Elite Estates Turning Lawns Into Living Art"
+          </p>
+        </div>
+
+        <div className="mt-18"> 
           <Footer />
         </div>
       </main>
