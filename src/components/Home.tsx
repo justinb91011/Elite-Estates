@@ -140,7 +140,7 @@ export const Home = () => {
               </div>
               <div className="flex">
                 <img
-                  src="/Elite-Estates/hand.jpg"
+                  src="/Elite-Estates/flower.jpg"
                   alt="Flower Bed Preparation"
                   className="w-1/2 h-48 object-cover rounded-l-lg" 
                 />
