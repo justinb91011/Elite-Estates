@@ -3,15 +3,15 @@ import Home from "./components/Home";
 import About from "./components/About";
 
 function App() {
+  // Set the basename to match the repository name or path where your app is hosted
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Elite-Estates">
       <Routes>
-        <Route path="/Elite-Estates" element={<Home />} />
-        <Route path="/Elite-Estates/about" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );
 }
 
 export default App;
-
