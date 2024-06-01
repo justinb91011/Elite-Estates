@@ -8,7 +8,7 @@ export const Home = () => {
   const navigate = useNavigate(); 
 
   const handleLearnMore = () => {
-    navigate("/Elite-Estates/about"); 
+    navigate("/about"); 
   };
 
   return (
@@ -19,7 +19,7 @@ export const Home = () => {
         <div
           className="relative w-full bg-cover bg-center"
           style={{
-            backgroundImage: "url('/Elite-Estates/house-photo.jpg')",
+            backgroundImage: "url('/house-photo.jpg')",
             height: "calc(100vh - 64px)",
           }}
         >
@@ -94,7 +94,7 @@ export const Home = () => {
             </div>
             <div className="md:w-1/2 flex justify-center bg-black p-4 rounded-lg">
               <video controls className="rounded-lg" style={{ width: "800px", height: "350px" }}>
-                <source src="/Elite-Estates/video.mp4" type="video/mp4" />
+                <source src="/video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -107,7 +107,7 @@ export const Home = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex">
                 <img
-                  src="/Elite-Estates/garden-image.jpg"
+                  src="/garden-image.jpg"
                   alt="Garden Care"
                   className="w-1/2 h-48 object-cover rounded-l-lg" 
                 />
@@ -118,7 +118,7 @@ export const Home = () => {
               </div>
               <div className="flex">
                 <img
-                  src="/Elite-Estates/tree-image.jpg"
+                  src="/tree-image.jpg"
                   alt="Tree Removal"
                   className="w-1/2 h-48 object-cover rounded-l-lg" 
                 />
@@ -129,7 +129,7 @@ export const Home = () => {
               </div>
               <div className="flex">
                 <img
-                  src="/Elite-Estates/house.jpg"
+                  src="/house.jpg"
                   alt="Lawn Care"
                   className="w-1/2 h-48 object-cover rounded-l-lg" 
                 />
@@ -140,7 +140,7 @@ export const Home = () => {
               </div>
               <div className="flex">
                 <img
-                  src="/Elite-Estates/flower.jpg"
+                  src="/flower.jpg"
                   alt="Flower Bed Preparation"
                   className="w-1/2 h-48 object-cover rounded-l-lg" 
                 />

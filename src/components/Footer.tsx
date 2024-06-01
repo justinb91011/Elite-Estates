@@ -10,9 +10,9 @@ export const Footer = () => {
         <div className="flex justify-between items-center mb-6">
           {/* Left Side - Logo and Copy Rights */}
           <div className="flex items-center">
-            <Link to="/Elite-Estates" className="mr-4">
+            <Link to="/" className="mr-4">
               <img
-                src="/Elite-Estates/logo-png.jpg"
+                src="/logo-png.jpg"
                 alt="Elite Estates Lawn Care Logo"
                 style={{ maxHeight: "60px" }}
               />

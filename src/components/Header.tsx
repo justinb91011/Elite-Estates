@@ -10,12 +10,12 @@ export const Header = () => {
     >
       <div className="flex items-center">
         <Link
-          to="/Elite-Estates"
+          to="/"
           className="logo"
           style={{ cursor: "pointer" }}
         >
           <img
-            src="/Elite-Estates/logo-png.jpg"
+            src="/logo-png.jpg"
             alt="Logo"
             style={{ maxHeight: "80px" }}
           />
@@ -29,7 +29,7 @@ export const Header = () => {
           }}
         ></div>
         <Link
-          to="/Elite-Estates"
+          to="/"
           style={{ fontSize: "1rem", fontWeight: "bold" }}
         >
           Elite Estates Lawn Care
@@ -37,7 +37,7 @@ export const Header = () => {
       </div>
       <div style={{ marginRight: "1rem" }} className="flex items-center">
         <Link
-          to="/Elite-Estates"
+          to="/"
           className="flex items-center"
           style={{
             fontSize: "1rem",

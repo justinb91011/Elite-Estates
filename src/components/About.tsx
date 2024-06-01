@@ -6,9 +6,9 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export const About = () => {
   const images = [
-    "/Elite-Estates/house-1.jpg",
-    "/Elite-Estates/house-2.jpg",
-    "/Elite-Estates/house-3.jpg"
+    "/house-1.jpg",
+    "/house-2.jpg",
+    "/house-3.jpg"
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
