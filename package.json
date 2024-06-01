@@ -2,9 +2,11 @@
   "name": "elite-estates",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://justinb91011.github.io.",
+  "homepage": "https://justinb91011.github.io/Elite-Estates",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "prettier": "prettier --write \"src/**/*.{ts,tsx}\" --config \".prettierrc.json\"",
     "dev": "vite",
     "build": "tsc && vite build",
