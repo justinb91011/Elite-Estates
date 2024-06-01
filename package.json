@@ -2,7 +2,7 @@
   "name": "elite-estates",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://eliteestateslandscaping.com/Elite-Estates",
+  "homepage": "https://justinb91011.github.io.",
   "type": "module",
   "scripts": {
     "prettier": "prettier --write \"src/**/*.{ts,tsx}\" --config \".prettierrc.json\"",
